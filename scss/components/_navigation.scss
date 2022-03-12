@@ -14,10 +14,12 @@
     transition: 
       background-color .2s ease-in-out, 
       color .2s ease-in-out;
-  }
-  
-  .nav-link:hover {
-    color: $color-text-light;
-    background-color: $color-border;
+
+
+      &:hover {
+        color: $color-text-light;
+        background-color: $color-border;
+      }
+      
   }
   
