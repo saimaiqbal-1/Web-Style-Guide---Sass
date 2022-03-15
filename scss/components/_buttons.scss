@@ -10,9 +10,9 @@
 
   
   .default {
-    background-color: #51ddfc;
+    background-color: $color-link;
       &:hover {
-        background-color: lighten(#51ddfc, 15%);
+        background-color: lighten($color-link, 15%);
       }
   }
   
